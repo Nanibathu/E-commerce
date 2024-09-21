@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <h1>Customize Your T-Shirt</h1>
+        <br>
+        <br><br><br>
+        <div class="customizer">
+       <label style="font-family: arial;font-size: 18px;font-style: italic;" for="tshirt-color" id="stone">Choose T-shirt Color:</label>
+       <input type="color" id="tshirt-color" value="#ffffff"><br><br><br>
+
+       <label style="font-family: arial;font-size: 18px;font-style: italic;" for="upload-design">Upload Your Design:</label>
+       <input type="file" id="upload-design" accept="image/*">
+       <section class="main-home">
+        <div class="main-text">
+            <h5>New Collection</h5>
+            <h1>New Desing <br> Collection  2024</h1>
+            <p>There's Nothing like Trend</p>
+
+            <button type="button" class="outline-btn">Download</button>
+        </div>
+       </section>
+
+
+       <canvas id="tshirt-canvas"></canvas>
+            
+    
+</header>
+  <script src="app.js"></script>
+</body>
+</html>
